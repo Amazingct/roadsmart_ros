@@ -1,0 +1,2 @@
+robot:system
+-DCATKIN_DEVEL_PREFIX=/home/amazing/Documents/ROS/roadsmart_nws/devel -DCMAKE_INSTALL_PREFIX=/home/amazing/Documents/ROS/roadsmart_nws/install -G Unix Makefiles

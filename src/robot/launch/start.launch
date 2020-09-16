@@ -1,0 +1,4 @@
+<launch>
+  <node name="stream_video_node" pkg="robot" type="stream_camera_node.py" />
+  <node name="radio_control_node" pkg="robot" type="radio_control_node.py" />
+</launch>

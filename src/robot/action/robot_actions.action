@@ -1,0 +1,13 @@
+# define goals (longitude and latitutude)
+float32 longitude
+float32 latitude
+
+---
+# define result
+bool success
+
+---
+# define feedback
+float32 current_long
+float32 current_lat
+

@@ -1,0 +1,8 @@
+prefix=/home/amazing/Documents/ROS/roadsmart_nws/devel
+
+Name: robot
+Description: Description of robot
+Version: 0.0.0
+Cflags: -I/home/amazing/Documents/ROS/roadsmart_nws/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy message_runtime
