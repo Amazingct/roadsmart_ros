@@ -13,7 +13,7 @@ class image_view_from_msg:
 
     def callback(self,data):
         img = self.bridge.imgmsg_to_cv2(data, "bgr8")
-        cv2.imshow('img', img)
+        cv2.imshow('camera', img)
         cv2.waitKey(1)
 
 
